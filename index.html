@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PSS scoreboard</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head></head>
+  <body>
+      <div class="container">
+          <div class="blue">
+              <input 
+                     class="input-blue" 
+                     placeholder="FIGHTER'S NAME">
+              </input>
+          </div>
+          <div class="red">
+              <input 
+                     class="input-red" 
+                     placeholder="FIGHTER'S NAME">
+              </input>
+          </div>
+          <div class="scores-container">
+               <div class="score-blue">
+                  <h1 id="blue-score">0</h1>
+               </div>
+               <div class="score-black">
+                    <div class="yellow">
+                        <div>02:00</div>
+                    </div>
+               </div>
+               <div class="score-red">
+                  <h1 id="red-score">0</h1>
+               </div>
+          </div>
+          <div class="gamju-blue">
+              <div class="gamju-bluecolor">
+                   <h1 id="blue-gamju">0</h1>
+              </div>
+              <button class="bluegamju-btn" onclick="plusBlueGj()">GAM-JEOM</button>
+          </div>
+          <div class="gamju-red">
+              <div class="gamju-redcolor">
+                   <h1 id="red-gamju">0</h1>
+              </div>
+              <button class="redgamju-btn" onclick="plusRedGj()">GAM-JEOM</button>
+          </div>
+          <div class="blue-btns">
+               <button class="blue-btn" onclick="plus1Blue()">+1</button>
+               <button class="blue-btn" onclick="plus2Blue()">+2</button>
+               <button class="blue-btn" onclick="plus3Blue()">+3</button>
+          </div>
+          <div class="red-btns">
+               <button class="red-btn" onclick="plus1Red()">+1</button>
+               <button class="red-btn" onclick="plus2Red()">+2</button>
+               <button class="red-btn" onclick="plus3Red()">+3</button>
+          </div>
+      </div>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
